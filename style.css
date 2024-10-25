@@ -1,0 +1,30 @@
+.flex-container{
+    display: flex;
+    height: 40rem;
+    width: 40rem;
+    border: 2px solid;
+}
+.flex-child1{
+    width: 250px;
+    height:200px;
+    flex-shrink: 10;
+    background-color: brown;
+}
+.flex-child2{
+    width: 150px;
+    height: 100px;
+    flex-shrink: 3;
+    background-color:purple;
+}
+.flex-child3{
+    width:120px;
+    height:100px;
+    flex-shrink: 2;
+    background-color:goldenrod;
+}
+.flex-child4{
+    width: 110px;
+    height: 100px;
+    flex-shrink: 1;
+    background-color: blue;
+}
